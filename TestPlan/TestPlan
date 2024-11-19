@@ -1,0 +1,74 @@
+                                               TEST PLAN FOR AUTOMATION TESTING
+
+Project: Viva Glint 
+Automation Test Plan Version: 1.0
+Objective: To outline the strategy, scope, tools, and processes for automation testing in the Glint project to ensure quality, reduce manual efforts, and increase test coverage and reliability.
+ 
+ SCOPE
+ In Scope: Automation testing for key functionalities and modules of the Glint project.
+•	Dashboard and Reporting functionalities
+•	Report Exports
+  Out of Scope: 
+•	ODS / Performance / 360 functionalities
+
+OBJECTIVES
+•	Automate critical test cases to achieve high test coverage for the Glint platform.
+•	Improve efficiency by reducing manual regression testing efforts.
+•	Integrate automated tests with CI/CD pipelines for quick feedback on build quality.
+
+TEST STRATEGY
+Automation Framework: Utilize a Page object model (POM) framework using Selenium WebDriver with TestNG as the testing framework.
+Programming Language: Java
+CI/CD Integration: GitHub for continuous integration and development.
+Reporting Tool: Extent Reports and TestNG for enhanced reporting and result visualization.
+
+TEST ENVIRONMENT
+Operating System: Windows 10, macOS
+Browsers: Chrome (latest version), Firefox, Microsoft Edge
+Environment Configurations: Viva glint QA environment with test data
+
+AUTOMATED TESTSUITES 
+Comments Report
+Executive Summary
+Team Summary
+Overall Results Report
+Heatmap Report
+Response Rate Report
+Multi Choice Report
+Manager Report
+Driver Impact
+
+TEST DELIVERABLES
+•	Automated Test Scripts for Reporting modules in scope.
+•	Test Execution Reports
+•	Defect Reports from failed test cases.
+
+TEST APPROACH
+Test Case Selection: Smoke test cases
+Execution Schedule: Automated tests will be executed on Eclipse.
+Script Maintenance: Update and maintain scripts as the application evolves to ensure reliability and relevance.
+
+TEST EXECUTION PLAN
+Execution Cycles: Smoke test runs and post-build validations.
+Trigger Conditions: Tests triggered by new code deployments or scheduled jobs.
+Test Reporting: Use reports to track and analyse test coverage, failure trends, and areas requiring manual follow-up.
+
+SCHEDULE
+Milestone 1: Initial framework setup and creation of smoke test scripts.
+Milestone 2: Automated Smoke test suite coverage for primary flows and implemented POM framework for better maintenance.
+Milestone 3: Attached Screenshot and created a report for test results for every testcases.
+
+RISKS AND MITIGATIONS
+Risk: Dynamic elements in DOM due to UI changes.
+Mitigation: Utilize stable locators and maintain regular script updates.
+
+ENTRY AND EXIT CRITERIA
+Entry Criteria: Stable build availability, automated test environment readiness, and finalized test cases.
+Exit Criteria: All prioritized automated test cases executed, identified defects logged, and smoke test suite passes within acceptable limits.
+
+APPROVAL
+Reviewed By:  
+SATHIYA POORANI S
+     
+
+
